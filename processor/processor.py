@@ -1,8 +1,8 @@
-from gateway.mongo.client import MongoClient
+from gateway.mongo.client import MongoRepo
 
 class Processor:
     def process_message(client, userdata, msg):
         temperature = int(msg.payload.decode())
         print(f"New temperature received: {temperature}")
         print("--------------------------------")
-        #MongoClient.save_temperature(temperature)
+        MongoRepo.save_temperature(temperature)

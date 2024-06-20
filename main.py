@@ -10,7 +10,7 @@ def main():
     processor_mqtt_client = MQTTClient.init("localhost", 1883, Processor.process_message)
     MQTTClient.Subscribe(processor_mqtt_client, "iot/temperature")
     MQTTClient.start(processor_mqtt_client)
-    
+        
     try:
         while True:
             sensor.publish_data()
