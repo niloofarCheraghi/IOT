@@ -1,21 +1,21 @@
-# 🌐 IoT Data Processing System
+#  IoT Data Processing System
 
 An educational IoT data processing pipeline built using **Python**, featuring simulated sensors, a gateway communicating via **MQTT** and storing data in **MongoDB**, and a processor to handle real-time analytics or operations.
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- 📡 Simulated Sensor Data Generator
-- 🚪 Gateway for handling MQTT & MongoDB communication
-- 🧠 Real-time Data Processing Module
-- 🔌 Modular design for scalability
-- 🗃️ MongoDB integration for data storage
-- 🐍 Pure Python implementation
+-  Simulated Sensor Data Generator
+-  Gateway for handling MQTT & MongoDB communication
+-  Real-time Data Processing Module
+-  Modular design for scalability
+-  MongoDB integration for data storage
+-  Pure Python implementation
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 IOT-master/
@@ -39,7 +39,7 @@ IOT-master/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository:**
    ```bash
@@ -63,7 +63,7 @@ This will launch the sensors, gateway, and processor as a simple simulation pipe
 
 ---
 
-## 📌 Requirements
+## Requirements
 
 - Python 3.x
 - MongoDB (local or cloud instance)
@@ -71,7 +71,7 @@ This will launch the sensors, gateway, and processor as a simple simulation pipe
 
 ---
 
-## 🧪 Test & Extend
+##  Test & Extend
 
 - Try modifying `data_simulator.py` to change the format or frequency of sensor data.
 - Plug in real MQTT brokers or MongoDB Atlas for live demos.
@@ -79,13 +79,9 @@ This will launch the sensors, gateway, and processor as a simple simulation pipe
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
 IoT Data Simulation & Processing Project  
 Developed by: **Niloufar Cheraghi**
 
----
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
